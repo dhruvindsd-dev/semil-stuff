@@ -1,0 +1,8 @@
+.sidebar-sticky {
+  position: sticky;
+  position: sticky;
+  top: 0; /* Stick to the top when scrolling */
+  background-color: #f8f9fa;
+  padding-top: 10px;
+  height: 100vh; /* Full height */
+}

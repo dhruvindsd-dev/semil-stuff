@@ -1,0 +1,36 @@
+/* Custom styles for the component */
+.text-with-icon {
+  padding: 10px; /* Padding around the entire row */
+  background-color: #f9f9f9; /* Light background color */
+  border-bottom: 2px solid #ccc; /* Border at the bottom */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.text-with-icon:hover {
+  background-color: #e6e6e6; /* Change background color on hover */
+}
+
+.text-with-icon .text {
+  font-size: 16px; /* Font size for the text */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Text color */
+}
+
+.text-with-icon .icon-button {
+  background: transparent; /* Transparent background */
+  border: none; /* No border */
+  color: #666; /* Icon color */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+.text-with-icon .icon-button:hover {
+  color: #000; /* Change icon color on hover */
+}
+
+.text-with-icon .icon {
+  transition: transform 0.3s ease; /* Smooth transition for icon effects */
+}
+
+.text-with-icon .icon-button:hover .icon {
+  transform: scale(1.1); /* Scale the icon on hover */
+}

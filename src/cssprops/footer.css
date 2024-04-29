@@ -1,0 +1,70 @@
+.footer {
+  background-color: #a01a58; /* Dark red background */
+  color: #ffffff; /* White text */
+  padding: 20px 0; /* Padding for top and bottom */
+  font-family: 'Arial', sans-serif; /* Font family */
+}
+
+.footer h5 {
+  margin-bottom: 15px; /* Space below headings */
+  font-weight: bold; /* Bold font for headings */
+}
+
+.footer ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.footer ul li {
+  margin-bottom: 5px; /* Space between list items */
+}
+
+.footer p {
+  margin-bottom: 10px; /* Space below paragraphs */
+}
+
+.footer .social-icon {
+  font-size: 24px; /* Size of social icons */
+  margin-right: 10px; /* Space between social icons */
+  vertical-align: middle; /* Align icons with adjacent text */
+}
+
+.footer a {
+  color: #ffffff; /* White text for links */
+  text-decoration: none; /* No underline on links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
+
+.footer img {
+  width: auto; /* Maintain original image width */
+  height: 40px; /* Set a fixed height for store badges */
+  margin-right: 10px; /* Space between store badges */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center; /* Center content on smaller screens */
+  }
+
+  .footer .social-icon {
+    display: block; /* Stack icons vertically */
+    margin: 10px auto; /* Center icons horizontally */
+  }
+
+  .footer img {
+    margin: 10px auto; /* Center store badges */
+    display: block; /* Stack badges vertically */
+  }
+}
+
+/* Copyright text styling */
+.footer .copyright {
+  text-align: center; /* Center copyright text */
+  margin-top: 20px; /* Space above copyright text */
+  font-size: 12px; /* Smaller font size for copyright text */
+}

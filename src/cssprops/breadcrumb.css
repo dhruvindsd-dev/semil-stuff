@@ -1,0 +1,14 @@
+/* BreadCrumb.css */
+
+.custom-breadcrumb {
+  background-color: red; /* Light gray background for the breadcrumb */
+  display: block; /* Keep the breadcrumb inline */
+  padding-left: 15px;
+  
+}
+
+.breadcrumb-item {
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a{ text-decoration: none; color: white;}

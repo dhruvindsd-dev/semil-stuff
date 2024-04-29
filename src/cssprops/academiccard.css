@@ -1,0 +1,25 @@
+/* CardList.css */
+
+/* Add a container with proper padding and spacing between cards */
+.card-lists {
+  display: flex; /* Use flex to align cards */
+  flex-wrap: wrap; /* Allow multiple rows */
+  gap: 30px; /* Space between cards */
+  justify-content: center; /* Center align */
+  padding: 50px; /* Add padding around the container */
+}
+
+/* Additional styling for individual cards if needed */
+.card {
+  border-radius: 10px; /* Round corners */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Animation for hover */
+}
+
+.title-h3 {
+  display: flex; /* Ensure h6 doesn't inherit flex */
+  font-size: 1rem; /* Normal font size */
+  color: #444; /* Medium color */
+}
+
+

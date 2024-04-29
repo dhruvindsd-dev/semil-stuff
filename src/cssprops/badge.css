@@ -1,0 +1,19 @@
+/* ImageCard.css */
+
+.card-center {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 50px;
+}
+
+.styled-card {
+  border: 2px solid #e0e0e0; /* Add a subtle border */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  transition: 0.3s; /* Smooth transition on hover */
+}
+
+.styled-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}

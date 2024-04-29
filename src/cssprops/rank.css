@@ -1,0 +1,22 @@
+/* styles.css */
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.custom-card {
+  width: 25rem; /* Larger width */
+  text-align: center; /* Center text */
+  padding: 20px; /* Add more padding */
+}
+
+.large-text {
+  
+}
+
+.icon {
+  font-size: 1.2rem; /* Larger icon size */
+}
